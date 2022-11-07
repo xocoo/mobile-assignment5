@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Assignment5</string>
+    <string name="app_quiz">Quiz App</string>
+    <string name="quiz1_question">1. ___ is a way to restrict direct access\n to some of an object’s fields.</string>
+    <string name="quiz1_answ1">Score</string>
+    <string name="quiz1_answ2">LiveData</string>
+    <string name="quiz1_answ3_correct">Encapsulation</string>
+    <string name="quiz1_answ4">GameViewModel</string>
+    <string name="quiz2_question">2. Which of the following are Android RecyclerView layout managers? Select all that apply.</string>
+    <string name="quiz2_description">Choose as many answers as you see fit.</string>
+    <string name="quiz2_answ1_correct">GridLayoutManager</string>
+    <string name="quiz2_answ2">RecyclingManager</string>
+    <string name="quiz2_answ3_correct">LinearLayoutManager</string>
+    <string name="quiz2_answ4">CircularLayoutManager</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_reset">Reset</string>
 </resources>
