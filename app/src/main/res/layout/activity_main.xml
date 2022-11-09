@@ -19,25 +19,36 @@
         app:layout_constraintVertical_bias="0.041" />
 
     <Button
-        android:id="@+id/btn_quiz"
+        android:id="@+id/btn_prob1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
-        android:text="Quiz App"
+        android:text="@string/prob1_quiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_app_title" />
 
     <Button
-        android:id="@+id/btn_quiz2"
+        android:id="@+id/btn_prob2_listview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Quiz App"
+        android:layout_marginTop="80dp"
+        android:text="@string/prob2_listrecycler"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_quiz" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_prob1" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_prob2_recyclerview"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="68dp"-->
+    <!--        android:text="@string/prob2_recyclerview"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.451"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/btn_prob2_listview" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

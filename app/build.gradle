@@ -35,6 +35,13 @@ android {
 dependencies {
     apply plugin: "kotlin-android"
     apply plugin: "kotlin-android-extensions"
+    // RecyclerView dependency
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    // CardView Dependency
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //Getting Image in a Circular View
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'com.mikhaellopez:circularimageview:4.3.1'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'

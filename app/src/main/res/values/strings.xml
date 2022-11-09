@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Assignment5</string>
-    <string name="app_quiz">Quiz App</string>
+    <string name="prob1_quiz">Problem1: Quiz App</string>
+    <string name="prob2_listrecycler">Problem2: ListView/RecyclerView</string>
     <string name="quiz1_question">1. ___ is a way to restrict direct access\n to some of an object’s fields.</string>
     <string name="quiz1_answ1">Score</string>
     <string name="quiz1_answ2">LiveData</string>
@@ -14,4 +15,25 @@
     <string name="quiz2_answ4">CircularLayoutManager</string>
     <string name="btn_submit">Submit</string>
     <string name="btn_reset">Reset</string>
+
+    <string name="logo_description">Walmart Logo</string>
+    <string name="shop_title">Shop by Categories</string>
+    <string name="welcome">Welcome</string>
+    <string name="user">Guest</string>
+    <string name="electronics">Electronics</string>
+    <string name="clothing">Clothing</string>
+    <string name="beauty">Beauty</string>
+    <string name="food">Food</string>
+
+
+    <string-array name="clothes">
+        <item>Business attire</item>
+        <item>Casual wear</item>
+        <item>Formal wear</item>
+        <item>Children wear</item>
+        <item>Sportswear</item>
+        <item>Baby clothes </item>
+        <item>Men wear</item>
+        <item>Women wear</item>
+    </string-array>
 </resources>

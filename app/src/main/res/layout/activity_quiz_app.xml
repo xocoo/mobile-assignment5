@@ -17,7 +17,7 @@
         android:id="@+id/tv_quiz_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/app_quiz"
+        android:text="@string/prob1_quiz"
         android:textSize="34sp" />
 
     <TextView
